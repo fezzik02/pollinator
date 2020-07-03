@@ -1,0 +1,17 @@
+proxy:
+    url: <uri>
+    api_key: <key>
+votes:
+    vote_options:
+        -
+            option: <option-1-id>
+            text: <option-1-text>
+        -
+            option: <option-2-id>
+            text: <option-2-text>
+    # Percent chance option 1 is selected
+    bias_to_first_option: 80
+    # Number of vote attempts
+    number_of_votes: 100
+    vote_url: <url>
+    vote_button_id: <id>
